@@ -27,12 +27,14 @@ flex-direction: row;
 width: 100%;
 justify-content: center;
 
-
-
-
-
-
 }
+
+#About-Me {
+
+margin-left: 5%;
+}
+
+
 
 
 .header {
@@ -40,6 +42,7 @@ justify-content: center;
     
     background-color: var(--secondcolor);
     margin-top: 5%;
+    margin-left: 5%;
     font-style: bold;
     font-size: 175%;
 }
@@ -89,9 +92,16 @@ li a {
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: var(--secondcolor);
+    
 
 }
+
+.container-3 p {
+
+    align-self: center;
+    margin-left: 5%;
+}
+
 
     #picture-1 {
     max-width: 100%;
@@ -110,21 +120,45 @@ li a {
     
 }
 
-  
-  
- 
-  
+.container-4 {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin-left: 5%;
 
-
-    
-
-     */ */
-    
-    
-    
-
-    
 }
+
+#Deployed-Applications {
+
+}
+  
+li {
+
+    text-decoration: none;
+    list-style: none;
+} 
+ 
+#HTML-pic {
+
+    width: 65%;
+    
+
+}
+  
+#HTMLandCSSpara {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 65%;
+
+}
+    
+    
+    
+
+    
+
 
 /* h1 {
 
