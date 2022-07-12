@@ -25,13 +25,15 @@ margin-bottom: 5%;
 display: flex;
 flex-direction: row;
 width: 100%;
-justify-content: center;
+justify-content: space-evenly;
 
 }
 
 #About-Me {
 
-margin-left: 5%;
+    margin-left: 3%;
+    
+
 }
 
 
@@ -99,24 +101,36 @@ li a {
 .container-3 p {
 
     align-self: center;
-    margin-left: 5%;
+    margin-right: 10%;
+    
 }
 
 
     #picture-1 {
-    max-width: 100%;
-    height: auto; 
+        display: flex;
+        flex-direction: row;
+    height: 72%; 
     width: 20%;
-    padding-bottom: 5%;
+    margin-right: 20%;
+
+    
+
    
     }
 
 #picture-2 {
     max-width: 100%;
-    height: auto; 
+    height: 72%; 
     width: 50%;
     padding-bottom: 5%;
   
+    
+}
+
+.container-first-app {
+
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -128,19 +142,34 @@ margin-left: 5%;
 
 }
 
-#Deployed-Applications {
 
-}
   
 li {
 
     text-decoration: none;
     list-style: none;
 } 
- 
+
+h2 {
+    display: flex;
+}
+
+#Deployed-Applications {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+
 #HTML-pic {
 
-    width: 80%;
+    width: 75%;
+    height: auto;
+    margin-left: 3%;
+    
     
 
 }
@@ -149,8 +178,9 @@ li {
 
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;
+    flex-wrap: wrap;
+    max-width: 75%;
+    margin-left: 3%;
 
 }
 
@@ -163,23 +193,42 @@ li {
 
 .Project-list-items {
 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-size: 100%;
     font-weight: 1000;
-    padding-bottom: 10%;
     padding-top: 10%;
+    margin-left: 3%;
+    padding-bottom: 5%;
+    
+
+
 }
     
     
     .project-pics {
         display: flex;
         flex-direction: row;
-        max-height: 20%;
-        max-width: 20%;
+        flex-wrap: nowrap;
+        width: 10%;
+        height: auto;
+    
+
 
     }
 
+
     
 
+
+
+    
+#about-me-p {
+
+    display: flex;
+    flex-direction: row;
+}
 
 /* h1 {
 
