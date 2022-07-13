@@ -123,6 +123,7 @@ li a {
     height: 72%; 
     width: 50%;
     padding-bottom: 5%;
+    flex-direction: wrap;
   
     
 }
@@ -136,12 +137,45 @@ li a {
 
 .container-4 {
 display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+flex-wrap: nowrap;
 margin-left: 5%;
+padding-top: 5%;
+flex-direction: row;
 
 }
 
+.container-5 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 9%;
+    padding-top: 10%;
+    flex-direction: row;
+    
+    }
+
+#placeholder-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 10%;
+}
+
+#placeholder-2{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 10%;
+}
+
+#placeholder-3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10%;
+}
+
+#placeholder-4 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10%;
+}
 
   
 li {
@@ -184,44 +218,22 @@ h2 {
 
 }
 
-.project-paras {
-
-    display: flex;
-    flex-direction: row;
-    max-width: 30%;
-}
-
-.Project-list-items {
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-size: 100%;
-    font-weight: 1000;
-    padding-top: 10%;
-    margin-left: 3%;
-    padding-bottom: 5%;
-    
-
-
-}
     
     
     .project-pics {
         display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        width: 10%;
+        flex-wrap: wrap;
+        width: 50%;
         height: auto;
     
 
 
     }
 
+#html-title {
 
-    
-
-
+    Margin-left: 3%;
+}
 
     
 #about-me-p {
