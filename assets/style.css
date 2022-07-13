@@ -2,15 +2,18 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    width: 100%;
+    /* width: 100%; */
     --backgroundcolor: #21c5c5;
-    background-color: var(--backgroundcolor);
     --secondcolor: #FFE4C4;
+    background-color: var(--backgroundcolor);
 }
 
-html {
+html, body {
     scroll-behavior: smooth;
+    min-width:100%;
 }
+
+
 
 .container {
 display: flex;
@@ -18,14 +21,17 @@ justify-content: space-evenly;
 background-color: var(--secondcolor);
 padding-bottom: 5%;
 margin-bottom: 5%;
+width: 100%;
+
 
 }
 .container-2 {
 
 display: flex;
 flex-direction: row;
-width: 100%;
+/* max-width: 100%; */
 justify-content: space-evenly;
+
 
 }
 
@@ -93,7 +99,10 @@ li a {
 .container-3 {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    /* max-width: 100%; */
+    background-color: var(--secondcolor);
+    
+    
     
 
 }
@@ -102,6 +111,7 @@ li a {
 
     align-self: center;
     margin-right: 10%;
+    background-color: var(--secondcolor);
     
 }
 
@@ -119,7 +129,7 @@ li a {
     }
 
 #picture-2 {
-    max-width: 100%;
+    /* max-width: 100%; */
     height: 72%; 
     width: 50%;
     padding-bottom: 5%;
@@ -132,24 +142,31 @@ li a {
 
     display: flex;
     flex-direction: column;
+    /* max-width: 100%; */
     
 }
 
 .container-4 {
 display: flex;
 flex-wrap: nowrap;
-margin-left: 5%;
+/* margin-left: 3%; */
 padding-top: 5%;
 flex-direction: row;
+background-color: var(--secondcolor);
+
+    
 
 }
 
 .container-5 {
     display: flex;
     flex-wrap: nowrap;
-    margin-left: 9%;
-    padding-top: 10%;
     flex-direction: row;
+    /* margin-left: 3%; */
+padding-top: 5%;
+background-color: var(--secondcolor);
+
+    
     
     }
 
@@ -157,6 +174,8 @@ flex-direction: row;
     display: flex;
     flex-wrap: nowrap;
     padding-top: 10%;
+
+    
 }
 
 #placeholder-2{
@@ -193,16 +212,16 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 3%;
+    /* margin-left: 3%; */
     margin-top: 5%;
 }
 
 
 #HTML-pic {
 
-    width: 75%;
+    /* max-width: 100%; */
     height: auto;
-    margin-left: 3%;
+    /* margin-left: 3%; */
     
     
 
@@ -215,31 +234,61 @@ h2 {
     flex-wrap: wrap;
     max-width: 75%;
     margin-left: 3%;
+    max-height: 75%;
 
 }
 
     
     
-    .project-pics {
+    .project-pics-1 {
         display: flex;
-        flex-wrap: wrap;
         width: 50%;
         height: auto;
-    
+    }
+
+    .project-pics-2 {
+
+        display: flex;
+        width: 50%;
+        height: auto;
 
 
     }
 
+    .contact-details-container {
+
+        display: flex;
+        flex-direction: row;
+        padding-top: 15%;
+        justify-content: space-between;
+    }
+
+    #contact-details {
+
+        padding-top: 10%;
+        /* margin-left: 3%; */
+    }
+
+    footer li {
+
+        /* margin-left: 3%; */
+    }
+    
+
+
+    
+
 #html-title {
 
-    Margin-left: 3%;
+    margin-left: 3%;
 }
 
     
-#about-me-p {
+#About-Me {
 
     display: flex;
     flex-direction: row;
+    background-color: var(--secondcolor);
 }
 
 /* h1 {
