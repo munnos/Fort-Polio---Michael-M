@@ -1,3 +1,6 @@
+
+/* Wildcard and body */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,6 +9,7 @@
     --backgroundcolor: #21c5c5;
     --secondcolor: #FFE4C4;
     background-color: var(--backgroundcolor);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 html, body {
@@ -13,7 +17,7 @@ html, body {
     min-width:100%;
 }
 
-
+/* Nav bar */
 
 .container {
 display: flex;
@@ -25,40 +29,25 @@ width: 100%;
 
 
 }
-.container-2 {
-
-display: flex;
-flex-direction: row;
-/* max-width: 100%; */
-justify-content: space-evenly;
-
-
-}
-
-#About-Me {
-
-    margin-left: 3%;
-    
-
-}
-
-
-
 
 .header {
     display: flex;
     
     background-color: var(--secondcolor);
     margin-top: 5%;
-    margin-left: 5%;
+    /* margin-left: 3%; */
     font-style: bold;
-    font-size: 175%;
+    font-size: 250%;
+    margin-left: -7%;
 }
 
+.nav-ul{
+    display: flex;
+    width: 50%;
+    background-color: var(--secondcolor);
+    text-decoration: none;
 
-    
-
-
+}
 
 nav ul li {
     list-style: none;
@@ -68,23 +57,18 @@ nav ul li {
 }
 
 ::selection {
-    color: red;
+    color: purple;
 
 
 }
 
 
-.nav-ul{
-    display: flex;
-    width: 50%;
-    background-color: var(--secondcolor);
-    text-decoration: none;
-}
+
+
 .nav-ul li{
-    float:left;
+    float:right;
     padding-right: 10%;
     margin-top: 15%;
-    text-align: center;
     text-decoration: none;
 }
 
@@ -96,13 +80,45 @@ li a {
     
 }
 
+/* About me section */
+
+.container-2 {
+
+display: flex;
+flex-direction: row;
+/* max-width: 100%; */
+justify-content: space-evenly;
+
+
+}
+
+
+#picture-1 {
+    display: flex;
+    flex-direction: row;
+height: 72%; 
+width: 20%;
+margin-right: 20%;
+
+
+
+
+}
+
+#picture-2 {
+/* max-width: 100%; */
+height: 72%; 
+width: 50%;
+padding-bottom: 5%;
+flex-direction: wrap;
+
+}
+
 .container-3 {
     display: flex;
     flex-direction: row;
     /* max-width: 100%; */
     background-color: var(--secondcolor);
-    
-    
     
 
 }
@@ -110,41 +126,82 @@ li a {
 .container-3 p {
 
     align-self: center;
-    margin-right: 10%;
+    padding-right: 10%;
     background-color: var(--secondcolor);
-    
+
 }
 
+#About-Me {
 
-    #picture-1 {
-        display: flex;
-        flex-direction: row;
-    height: 72%; 
-    width: 20%;
-    margin-right: 20%;
+    margin-left: 2%;
+    display: flex;
+    padding-right: 5%;
+    flex-direction: row;
+    background-color: var(--secondcolor);
 
-    
-
-   
-    }
-
-#picture-2 {
-    /* max-width: 100%; */
-    height: 72%; 
-    width: 50%;
-    padding-bottom: 5%;
-    flex-direction: wrap;
-  
-    
 }
+
+/* First project */
 
 .container-first-app {
 
     display: flex;
     flex-direction: column;
-    /* max-width: 100%; */
     
 }
+
+
+#Deployed-Applications {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: var(--secondcolor);
+    font-size: 200%;
+
+}
+
+#html-title {
+
+    margin-left: 2%;
+    margin-bottom: 2%;
+font-weight: bold;
+}
+
+li {
+
+    text-decoration: none;
+    list-style: none;
+}
+
+#HTML-pic {
+
+    /* max-width: 100%; */
+    height: auto;
+    margin-left: 2%;
+    
+    
+
+}
+
+#HTMLandCSSpara {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 75%;
+    margin-left: 3%;
+    max-height: 75%;
+    margin-bottom: 5%;
+
+}
+
+/* Remaining placeholder projects */
+
+
+
 
 .container-4 {
 display: flex;
@@ -158,102 +215,115 @@ background-color: var(--secondcolor);
 
 }
 
-.container-5 {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    /* margin-left: 3%; */
-padding-top: 5%;
-background-color: var(--secondcolor);
-
-    
-    
-    }
-
 #placeholder-1 {
     display: flex;
     flex-wrap: nowrap;
-    padding-top: 10%;
+    /* padding-top: 15%; */
+   
+    
 
     
+}
+
+#project-pics-boro {
+
+    display: flex;
+    max-width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+
+#project-pics-1 {
+
+    display: flex;
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
 }
 
 #placeholder-2{
     display: flex;
     flex-wrap: nowrap;
-    padding-top: 10%;
+    /* padding-top: 15%; */
 }
+
+
+#placeholder-1 p {
+
+    width: 50%;
+}
+
+
+
+
+
+
+.container-5 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* margin-left: 3%; */
+padding-top: 15%;
+
+
+    
+    
+    }
+
+
+
+
 
 #placeholder-3 {
     display: flex;
-    flex-wrap: wrap;
-    padding-top: 10%;
+    flex-wrap: nowrap;
+    /* padding-top: 15%; */
+  
+}
+
+#project-pics-3 {
+
+    display: flex;
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 11%;
 }
 
 #placeholder-4 {
     display: flex;
-    flex-wrap: wrap;
-    padding-top: 10%;
+    flex-wrap: nowrap;
+    margin-left: 23%;
+   
 }
-
-  
-li {
-
-    text-decoration: none;
-    list-style: none;
-} 
-
-h2 {
-    display: flex;
-}
-
-#Deployed-Applications {
+#project-pics-4 {
 
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* margin-left: 3%; */
-    margin-top: 5%;
-}
-
-
-#HTML-pic {
-
-    /* max-width: 100%; */
+    width: 30%;
     height: auto;
-    /* margin-left: 3%; */
-    
-    
-
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* margin-left: 23%; */
 }
-  
-#HTMLandCSSpara {
+
+/* h2 {
 
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 75%;
-    margin-left: 3%;
-    max-height: 75%;
+} */
 
-}
 
+  
+
+/* Footer */
     
     
-    .project-pics-1 {
-        display: flex;
-        width: 50%;
-        height: auto;
-    }
+    
 
-    .project-pics-2 {
-
-        display: flex;
-        width: 50%;
-        height: auto;
-
-
-    }
 
     .contact-details-container {
 
@@ -266,35 +336,19 @@ h2 {
     #contact-details {
 
         padding-top: 10%;
+        background-color: var(--secondcolor);
         /* margin-left: 3%; */
     }
 
     footer li {
 
-        /* margin-left: 3%; */
+       
+
+            text-decoration: none;
+            list-style: none;
+    
     }
     
 
 
     
-
-#html-title {
-
-    margin-left: 3%;
-}
-
-    
-#About-Me {
-
-    display: flex;
-    flex-direction: row;
-    background-color: var(--secondcolor);
-}
-
-/* h1 {
-
-    background-color: var(--backgroundcolor);
-    padding: 5px;
-    margin: 5px;
-    font-style: bold;
-} */
