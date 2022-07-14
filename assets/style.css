@@ -129,7 +129,7 @@ li a {
 
 #About-Me {
 
-    margin-left: 2%;
+    padding-left: 2%;
     display: flex;
     padding-right: 5%;
     flex-direction: row;
@@ -154,6 +154,7 @@ li a {
     flex-wrap: wrap;
     margin-top: 5%;
     margin-bottom: 5%;
+    padding-left: 2%;
     background-color: var(--secondcolor);
     font-size: 200%;
 
@@ -174,7 +175,7 @@ li {
 
 #HTML-pic {
 
-    /* max-width: 100%; */
+    width: 75%;
     height: auto;
     margin-left: 2%;
 
@@ -214,6 +215,7 @@ li {
     display: flex;
     flex-wrap: nowrap;
     padding-top: 5%;
+   
 
 
 
@@ -235,7 +237,7 @@ li {
     display: flex;
     width: 30%;
     height: auto;
-    margin-top: 5%;
+    margin-top: 15%;
     margin-bottom: 5%;
     margin-left: 5%;
 
@@ -245,6 +247,7 @@ li {
     display: flex;
     flex-wrap: nowrap;
     padding-top: 5%;
+   
 
 }
 
@@ -271,6 +274,7 @@ li {
 #placeholder-3 {
     display: flex;
     flex-wrap: nowrap;
+    padding-left: 5%;
 
 }
 
@@ -279,7 +283,7 @@ li {
     display: flex;
     width: 30%;
     height: auto;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     margin-bottom: 5%;
     margin-left: 11%;
 }
@@ -287,7 +291,7 @@ li {
 #placeholder-4 {
     display: flex;
     flex-wrap: nowrap;
-    margin-left: 23%;
+    padding-left: 10%;
 
 }
 
@@ -315,7 +319,7 @@ li {
     justify-content: space-between;
 }
 
-#contact-details-1 {
+#contact-details {
 
     display: flex;
     flex-direction: row;
@@ -324,6 +328,7 @@ li {
     margin-bottom: 5%;
     background-color: var(--secondcolor);
     font-size: 200%;
+    padding-left: 2%;
 }
 
 footer li {
@@ -623,8 +628,8 @@ li {
 
 
 #placeholder-3 {
-    display: flex;
-    flex-wrap: nowrap;
+    margin-left: 5%;
+    
 
 }
 
@@ -641,7 +646,7 @@ li {
 #placeholder-4 {
     display: flex;
     flex-wrap: nowrap;
-    margin-left: 23%;
+    margin-left: 5%;
 
 }
 
