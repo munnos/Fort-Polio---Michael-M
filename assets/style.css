@@ -365,6 +365,7 @@ footer li {
 
     .container {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-evenly;
         background-color: var(--secondcolor);
         padding-bottom: 5%;
@@ -375,18 +376,20 @@ footer li {
     
     .header {
         display: flex;
-    
         background-color: var(--secondcolor);
         margin-top: 5%;
-       
+        padding-left: 5%;
         font-style: bold;
-        font-size: 250%;
-        margin-left: -7%;
+        font-size: 150%;
+
+    
+        
     }
     
     .nav-ul {
         display: flex;
-        width: 50%;
+        width: 60%;
+        padding-left: 5%;
         background-color: var(--secondcolor);
         text-decoration: none;
     
@@ -431,7 +434,7 @@ footer li {
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-evenly;
-        width: 70%;
+        
     
     
     }
@@ -441,7 +444,7 @@ footer li {
         display: flex;
         flex-direction: row;
         height: 72%;
-        width: 20%;
+        width: 30%;
         margin-left: 20%;
     
     
@@ -471,11 +474,13 @@ footer li {
         align-self: center;
         padding-right: 10%;
         background-color: var(--secondcolor);
+        padding-top:3%;
     
     }
     
     #About-Me {
     
+        padding-top: 3%;
         margin-left: 8%;
         display: flex;
         padding-right: 5%;
@@ -891,7 +896,8 @@ li {
     display: flex;
     flex-wrap: nowrap;
     padding-top: 5%;
-    margin-left: 2.2%;
+    padding-left: 3.2%;
+    
 
 
 
@@ -966,7 +972,7 @@ li {
 #placeholder-4 {
     display: flex;
     flex-wrap: nowrap;
-    margin-left: 23%;
+    margin-left: 10%;
 
 }
 
