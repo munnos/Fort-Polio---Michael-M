@@ -315,7 +315,7 @@ li {
     justify-content: space-between;
 }
 
-#contact-details {
+#contact-details-1 {
 
     display: flex;
     flex-direction: row;
@@ -360,3 +360,684 @@ footer li {
 
 
 }
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: var(--secondcolor);
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+     
+    
+    }
+    
+    .header {
+        display: flex;
+    
+        background-color: var(--secondcolor);
+        margin-top: 5%;
+       
+        font-style: bold;
+        font-size: 250%;
+        margin-left: -7%;
+    }
+    
+    .nav-ul {
+        display: flex;
+        width: 50%;
+        background-color: var(--secondcolor);
+        text-decoration: none;
+    
+    }
+    
+    nav ul li {
+        list-style: none;
+        text-decoration: none;
+        background-color: var(--secondcolor);
+        
+    }
+    
+    ::selection {
+        color: purple;
+    
+    
+    }
+    
+    
+    
+    
+    .nav-ul li {
+        float: right;
+        padding-right: 10%;
+        margin-top: 15%;
+        text-decoration: none;
+    }
+    
+    li a {
+    
+        background-color: pink;
+        text-decoration: none;
+        font-size: 200%;
+    
+    }
+    
+    /* About me section */
+    
+    .container-2 {
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        width: 70%;
+    
+    
+    }
+    
+    
+    #picture-1 {
+        display: flex;
+        flex-direction: row;
+        height: 72%;
+        width: 20%;
+        margin-left: 20%;
+    
+    
+    
+    
+    }
+    
+    #picture-2 {
+        height: 72%;
+        width: 50%;
+        padding-bottom: 5%;
+        margin-left: 20%;
+        
+    
+    }
+    
+    .container-3 {
+        display: flex;
+        flex-direction: row;
+        background-color: var(--secondcolor);
+    
+    
+    }
+    
+    .container-3 p {
+    
+        align-self: center;
+        padding-right: 10%;
+        background-color: var(--secondcolor);
+    
+    }
+    
+    #About-Me {
+    
+        margin-left: 8%;
+        display: flex;
+        padding-right: 5%;
+        flex-direction: row;
+        background-color: var(--secondcolor);
+    
+    }
+    
+    /* First project */
+
+.container-first-app {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#Deployed-Applications {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: var(--secondcolor);
+    font-size: 200%;
+
+}
+
+#html-title {
+
+    margin-left: 2%;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+li {
+
+    text-decoration: none;
+    list-style: none;
+}
+
+#HTML-pic {
+
+    /* max-width: 100%; */
+    height: auto;
+    margin-left: 2%;
+
+
+
+}
+
+#HTMLandCSSpara {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 75%;
+    margin-left: 3%;
+    max-height: 75%;
+    margin-bottom: 5%;
+
+}
+
+/* Remaining placeholder projects */
+
+
+
+
+.container-4 {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 5%;
+    flex-direction: row;
+    background-color: var(--secondcolor);
+
+
+
+}
+
+#placeholder-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 5%;
+
+
+
+
+}
+
+#project-pics-boro {
+
+    display: flex;
+    max-width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+
+#project-pics-1 {
+
+    display: flex;
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+
+}
+
+#placeholder-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 5%;
+
+}
+
+
+
+
+
+
+
+
+
+.container-5 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-top: 15%;
+
+}
+
+
+
+
+
+#placeholder-3 {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+#project-pics-3 {
+
+    display: flex;
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 11%;
+}
+
+#placeholder-4 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 23%;
+
+}
+
+#project-pics-4 {
+
+    display: flex;
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+
+
+
+
+
+
+.contact-details-container {
+
+    display: flex;
+    flex-direction: row;
+    padding-top: 10%;
+    justify-content: space-between;
+}
+
+#contact-details-1 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: var(--secondcolor);
+    font-size: 200%;
+}
+
+footer li {
+
+
+
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+
+}
+
+#email {
+
+    margin-bottom: 5%;
+    margin-left: 2%;
+    background-color: var(--secondcolor);
+
+}
+
+#telephone {
+
+    background-color: var(--secondcolor);
+    margin-bottom: 5%;
+    margin-left: 2%;
+
+}
+
+#linkedin {
+    margin-bottom: 5%;
+    margin-right: 2%;
+    list-style: none;
+    background-color: var(--secondcolor);
+
+
+}
+    
+
+
+}
+
+@media screen and (max-width: 980px) {
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: var(--secondcolor);
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+     
+    
+    }
+    
+    .header {
+        display: flex;
+    
+        background-color: var(--secondcolor);
+        margin-top: 5%;
+       
+        font-style: bold;
+        font-size: 250%;
+        margin-left: -7%;
+    }
+    
+   
+    
+    
+    
+    
+    
+    
+    .nav-ul li {
+        float: right;
+        padding-right: 10%;
+        margin-top: 15%;
+        text-decoration: none;
+    }
+    
+
+    
+    /* About me section */
+    
+    .container-2 {
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        width: 70%;
+    
+    
+    }
+    
+    
+    #picture-1 {
+        display: flex;
+        flex-direction: row;
+        height: 72%;
+        width: 20%;
+        margin-left: 20%;
+    
+    
+    
+    
+    }
+    
+    #picture-2 {
+        height: 72%;
+        width: 50%;
+        padding-bottom: 5%;
+        margin-left: 20%;
+        
+    
+    }
+    
+    .container-3 {
+        display: flex;
+        flex-direction: row;
+        background-color: var(--secondcolor);
+    
+    
+    }
+    
+    .container-3 p {
+    
+        align-self: center;
+        padding-right: 10%;
+        background-color: var(--secondcolor);
+    
+    }
+    
+    #About-Me {
+    
+        margin-left: 8%;
+        display: flex;
+        padding-right: 5%;
+        flex-direction: row;
+        background-color: var(--secondcolor);
+    
+    }
+    
+    /* First project */
+
+.container-first-app {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#Deployed-Applications {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    background-color: var(--secondcolor);
+    font-size: 200%;
+
+}
+
+#html-title {
+
+    margin-left: 5%;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+li {
+
+    text-decoration: none;
+    list-style: none;
+}
+
+#HTML-pic {
+
+    
+    height: auto;
+    margin-left: 5%;
+    width: 70%;
+
+
+
+}
+
+#HTMLandCSSpara {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 75%;
+    margin-left: 5%;
+    max-height: 75%;
+    margin-bottom: 5%;
+
+}
+
+/* Remaining placeholder projects */
+
+
+
+
+.container-4 {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 5%;
+    flex-direction: row;
+    background-color: var(--secondcolor);
+
+
+
+}
+
+#placeholder-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 5%;
+    margin-left: 2.2%;
+
+
+
+
+}
+
+#project-pics-boro {
+
+    display: flex;
+    max-width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+
+#project-pics-1 {
+
+    display: flex;
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+
+}
+
+#placeholder-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 5%;
+
+}
+
+
+
+
+
+
+
+
+
+.container-5 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-top: 15%;
+
+}
+
+
+
+
+
+#placeholder-3 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 3.2%;
+
+}
+
+#project-pics-3 {
+
+    display: flex;
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 11%;
+}
+
+#placeholder-4 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 23%;
+
+}
+
+#project-pics-4 {
+
+    display: flex;
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+
+
+
+
+
+
+.contact-details-container {
+
+    display: flex;
+    flex-direction: row;
+    padding-top: 10%;
+    justify-content: space-between;
+}
+
+#contact-details {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: var(--secondcolor);
+    font-size: 200%;
+    margin-left: 5%;
+}
+
+footer li {
+
+
+
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+
+}
+
+#email {
+
+    margin-bottom: 5%;
+    margin-left: 5%;
+    background-color: var(--secondcolor);
+
+}
+
+#telephone {
+
+    background-color: var(--secondcolor);
+    margin-bottom: 5%;
+    margin-right: 3%;
+
+}
+
+#linkedin {
+    margin-bottom: 5%;
+    list-style: none;
+    background-color: var(--secondcolor);
+    margin-right: 8%;
+    
+
+
+}}
