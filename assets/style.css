@@ -465,16 +465,18 @@ footer li {
         display: flex;
         flex-direction: row;
         background-color: var(--secondcolor);
+        flex-wrap: wrap;
     
     
     }
     
     .container-3 p {
     
-        align-self: center;
-        padding-right: 10%;
+        /* align-self: center; */
         background-color: var(--secondcolor);
         padding-top:3%;
+        margin-left: 10%;
+        padding-bottom: 3%;
     
     }
     
